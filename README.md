@@ -1,10 +1,10 @@
 # Computer Graphics CSE-4303
 ## Course Content
 - Introduction 
-- 2D concepts: [Colab](), [Github]()
+- 2D concepts: [Slide](https://docs.google.com/presentation/d/1MGNEji7kmpE-0jM3T6DxQ9CYCXuhZqKqRJTtthco2Rg/edit?usp=sharing), [Colab](https://drive.google.com/file/d/1-xK6s2QdkULekYM8QJHcPT3pVwUFGwiM/view?usp=sharing), [Github](./lectures/w01_transformation_2D.ipynb)
     - Translation, Rotation, and Scaling
     - Homogeneouse coordinate systems
-    - Plan equations
+    - Plane equations
     - Parameteric equations
     - Matrix Representations
     - Window to viewport mapping
@@ -19,7 +19,7 @@
     - Oblique parallel projections
     - Persective projections
     - Mathematics of 3D projections
-- Representations of curves and surfaces [Colab](), [Github](./lectures/Represenation_of_Curves_and_Surfaces.ipynb)
+- Representations of curves and surfaces [Colab](), [Github]()
     - Polygon meshes
     - Beizer curves and surfaces
     - Hermite curves
