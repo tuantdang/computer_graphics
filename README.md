@@ -4,7 +4,7 @@
 - 2D concepts: [Colab](), [Github]()
     - Translation, Rotation, and Scaling
     - Homogeneouse coordinate systems
-    - Plan eqautions
+    - Plan equations
     - Parameteric equations
     - Matrix Representations
     - Window to viewport mapping
