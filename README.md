@@ -62,7 +62,56 @@
 pip install PyOpenGL PyOpenGL_accelerate
 ```
 
-## PyGame: Screen/Window Management
+###  Python bindings for GLFW
+Installation
+```
+pip install PyOpenGL glfw
+```
+
+``` python
+from OpenGL.GL import *
+from OpenGL.GLU import *
+import math
+import glfw
+import time
+
+def draw(verticies, edges):
+    glBegin(GL_LINES)
+    for edge in edges:
+        for vi in edge:
+            glVertex3fv(verticies[vi])
+    glEnd()
+
+def main():
+    glfw.init()
+    display = (800,600)
+    window = glfw.create_window(800, 600, "Hello Triangle with glfw", None, None)
+    glfw.make_context_current(window)
+    gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
+    glTranslatef(0.0, 0.0, -5)
+    
+    vertices = ((-1, 0, 0), (1, 0, 0),  (0, 1, 0))
+    edges = ((0, 1), (1,2), (2, 0))
+    freq = 10 # hz
+    while not glfw.window_should_close(window):
+        alpha = (2*math.pi)/6 # Rotation resulotion
+        glRotatef(alpha, 0, 0, 1) # Rotate an angle alpha (rad) around vector(0, 0, 1) 
+        glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
+        draw(vertices, edges)
+        time.sleep(1.0/freq)
+        glfw.swap_buffers(window)
+        glfw.poll_events()
+    glfw.terminate()
+main()
+```
+
+#### Another Example:
+```
+python .\pyopengl\cube.py
+```
+![](./images/3dcube_lines.png)
+
+## Alernative Window System: PyGame: Screen/Window Management
 ### Installation:
 ```
 python3 -m pip install -U pygame==2.6.0
@@ -92,7 +141,7 @@ def main():
     gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
     glTranslatef(0.0, 0.0, -5)
     
-    verticies = ((-1, 0, 0), (1, 0, 0),  (0, 1, 0))
+    vertices = ((-1, 0, 0), (1, 0, 0),  (0, 1, 0))
     edges = ((0, 1), (1,2), (2, 0))
     freq = 10 # hz
     while True:
@@ -104,7 +153,7 @@ def main():
         alpha = (2*math.pi)/6 # Rotation resulotion
         glRotatef(alpha, 0, 0, 1) # Rotate an angle alpha (rad) around vector(0, 0, 1) 
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
-        draw(verticies, edges)
+        draw(vertices, edges)
         pygame.display.flip()   # Output to screen
         pygame.time.wait(int(1000/freq)) # milisecond T=1/freq
 

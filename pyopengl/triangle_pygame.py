@@ -18,7 +18,7 @@ def main():
     gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
     glTranslatef(0.0, 0.0, -5)
     
-    verticies = ((-1, 0, 0), (1, 0, 0),  (0, 1, 0))
+    vertices = ((-1, 0, 0), (1, 0, 0),  (0, 1, 0))
     edges = ((0, 1), (1,2), (2, 0))
     freq = 10 # hz
     while True:
@@ -30,7 +30,7 @@ def main():
         alpha = (2*math.pi)/6 # Rotation resulotion
         glRotatef(alpha, 0, 0, 1) # Rotate an angle alpha (rad) around vector(0, 0, 1) 
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
-        draw(verticies, edges)
+        draw(vertices, edges)
         pygame.display.flip()   # Output to screen
         pygame.time.wait(int(1000/freq)) # milisecond T=1/freq
 
