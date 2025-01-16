@@ -85,7 +85,7 @@ def draw(verticies, edges):
 def main():
     glfw.init()
     display = (800,600)
-    window = glfw.create_window(800, 600, "Hello Triangle with glfw", None, None)
+    window = glfw.create_window(display[0], display[1], "Hello Triangle with glfw", None, None)
     glfw.make_context_current(window)
     gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
     glTranslatef(0.0, 0.0, -5)
