@@ -7,12 +7,10 @@
     - Parameteric equations
     - Matrix Representations
     - Window to viewport mapping
-- Mathematics for 3D computer graphics [Colab](), [Github]()
+- Mathematics for 3D computer graphics [Colab](https://docs.google.com/presentation/d/1MWN8l9k9yp7jfqrLcmu_S6ZBk4wUV6mJsrQU2QlmYLg/edit?usp=sharing), [Github](./lectures/w02_transformations_3d.ipynb)
+    - Translation, Rotation, Scaling, and Shear
     - Parametric equations
     - Plane equations
-- 3D tranformations  [Colab](), [Github]()
-    - Translation, Rotation, Scaling, and Shear
-    - Composite transformations
 - Viewing in 3D [Colab](), [Github]()
     - Orthographic parallel projections
     - Oblique parallel projections
