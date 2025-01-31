@@ -1,13 +1,13 @@
 # Computer Graphics CSE-4303
 ## Course Content
 - Introduction 
-- 2D concepts: [Slide](https://docs.google.com/presentation/d/1MGNEji7kmpE-0jM3T6DxQ9CYCXuhZqKqRJTtthco2Rg/edit?usp=sharing), [Colab](https://drive.google.com/file/d/1-xK6s2QdkULekYM8QJHcPT3pVwUFGwiM/view?usp=sharing), [Github](./lectures/w01_transformation_2D.ipynb)
+- 2D concepts: [Prensetation](https://docs.google.com/presentation/d/1MGNEji7kmpE-0jM3T6DxQ9CYCXuhZqKqRJTtthco2Rg/edit?usp=sharing), [Colab](https://drive.google.com/file/d/1-xK6s2QdkULekYM8QJHcPT3pVwUFGwiM/view?usp=sharing), [Github](./lectures/w01_transformation_2D.ipynb)
     - Translation, Rotation, and Scaling
     - Homogeneouse coordinate systems
     - Parameteric equations
     - Matrix Representations
     - Window to viewport mapping
-- Mathematics for 3D computer graphics [Colab](https://docs.google.com/presentation/d/1MWN8l9k9yp7jfqrLcmu_S6ZBk4wUV6mJsrQU2QlmYLg/edit?usp=sharing), [Github](./lectures/w02_transformations_3d.ipynb)
+- Mathematics for 3D computer graphics [Prensetation](https://docs.google.com/presentation/d/1MWN8l9k9yp7jfqrLcmu_S6ZBk4wUV6mJsrQU2QlmYLg/edit?usp=sharing), [Github](./lectures/w02_transformations_3d.ipynb)
     - Translation, Rotation, Scaling, and Shear
     - Parametric equations
     - Plane equations
