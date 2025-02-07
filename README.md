@@ -11,6 +11,7 @@
     - Translation, Rotation, Scaling, and Shear
     - Parametric equations
     - Plane equations
+- Ray Tracing in 3D [Presentation](https://docs.google.com/presentation/d/1KEyEC6XwHQQ4_4_4CPQQZYsCvhDZ_KVZredCO5qUJcc/edit?usp=sharing)
 - Viewing in 3D [Colab](), [Github]()
     - Orthographic parallel projections
     - Oblique parallel projections
