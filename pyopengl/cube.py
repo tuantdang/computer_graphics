@@ -28,7 +28,7 @@ def main():
     
     while not glfw.window_should_close(window):
         alpha = (2*math.pi)/6 # Rotation resulotion
-        glRotatef(alpha, 0, 1, 1) # Rotate an angle alpha (rad) around vector(0, 1, 1) 
+        glRotatef(alpha, 0, 0, 1) # Rotate an angle alpha (rad) around vector(0, 1, 1) 
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
         draw(vertices, edges)
         time.sleep(0.1)

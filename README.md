@@ -12,21 +12,11 @@
     - Parametric equations
     - Plane equations
 - Ray Tracing in 3D [Presentation](https://docs.google.com/presentation/d/1KEyEC6XwHQQ4_4_4CPQQZYsCvhDZ_KVZredCO5qUJcc/edit?usp=sharing)
-- Viewing in 3D [Colab](), [Github]()
+- Viewing in 3D [Presentation](https://docs.google.com/presentation/d/1PX-xB3Dq85WCFlGrUqTcU7vpUSrcpdWnWYD3mtZt_sc/edit?usp=sharing)
     - Orthographic parallel projections
     - Oblique parallel projections
     - Persective projections
     - Mathematics of 3D projections
-- Representations of curves and surfaces [Colab](), [Github]()
-    - Polygon meshes
-    - Beizer curves and surfaces
-    - Hermite curves
-    - Spline curves and surfaces
-- Color [Colab](), [Github]()
-    - Color Spectrum
-    - CIE Choromaticity
-    - Color space (RGB, HSV, YIQ, YCbCr,..)
-    - Color convention
 - OpenGL [Colab](), [Github]()
     - Facts and concepts
     - Naming convention
@@ -38,6 +28,16 @@
     - Packages
     - Vertex Shader
     - Fragment Shader
+- Representations of curves and surfaces [Colab](), [Github]()
+    - Polygon meshes
+    - Beizer curves and surfaces
+    - Hermite curves
+    - Spline curves and surfaces
+- Color [Colab](), [Github]()
+    - Color Spectrum
+    - CIE Choromaticity
+    - Color space (RGB, HSV, YIQ, YCbCr,..)
+    - Color convention
 - Illumination and Shading [Colab](), [Github]()
     - Illumnination models
     - Shading models for polygons

@@ -4,6 +4,7 @@ import math
 import glfw
 import time
 
+
 def draw(verticies, edges):
     glBegin(GL_LINES)
     for edge in edges:
@@ -11,7 +12,7 @@ def draw(verticies, edges):
             glVertex3fv(verticies[vi])
     glEnd()
 
-def main():
+def mymain():
     glfw.init()
     display = (800,600)
     window = glfw.create_window(display[0], display[1], "Hello Triangle with glfw", None, None)
@@ -21,14 +22,15 @@ def main():
     
     vertices = ((-1, 0, 0), (1, 0, 0),  (0, 1, 0))
     edges = ((0, 1), (1,2), (2, 0))
-    freq = 10 # hz
+    freq = 60 # hz
     while not glfw.window_should_close(window):
         alpha = (2*math.pi)/6 # Rotation resulotion
-        glRotatef(alpha, 0, 0, 1) # Rotate an angle alpha (rad) around vector(0, 0, 1) 
+        glRotatef(alpha, 1, 1, 0) # Rotate an angle alpha (rad) around vector(0, 0, 1) 
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
         draw(vertices, edges)
         time.sleep(1.0/freq)
         glfw.swap_buffers(window)
         glfw.poll_events()
     glfw.terminate()
-main()
+
+mymain()
