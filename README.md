@@ -17,7 +17,7 @@
     - Oblique parallel projections
     - Persective projections
     - Mathematics of 3D projections
-- OpenGL [Colab](), [Github]()
+- OpenGL [Presentation](https://docs.google.com/presentation/d/1WPaBRilkudP9_lZu-ZzdKDV9RXrC7PcDIJAiCUflW1M/edit?usp=sharing), [Github](https://github.com/tuantdang/computer_graphics/tree/main/pyopengl)
     - Facts and concepts
     - Naming convention
     - Installation
