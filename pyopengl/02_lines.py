@@ -7,11 +7,13 @@ import time
 prog_name = 'Example 02'
 colors = [(1, 0, 0), (0, 1, 0), (0, 0, 1), (1, 1, 0), (0, 1, 1), (1, 0, 1)] 
 
-def draw(verticies, edges):
-    glBegin(GL_LINE_LOOP)
-    # for edge in edges:
+ # for edge in edges:
         # for vi in edge:
             # glVertex3fv(verticies[vi])
+
+def draw(verticies, edges):
+    glBegin(GL_LINE_LOOP)
+    # glBegin(GL_TRIANGLES)
     i = 0
     for v in verticies:
         glColor(colors[i])
@@ -26,7 +28,7 @@ def mymain():
     window = glfw.create_window(display[0], display[1], prog_name, None, None)
     glfw.make_context_current(window)
     gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
-    gluLookAt(10, 10, 10, # Camera position
+    gluLookAt(5, 5, 5, # Camera position
               0.0, 0.0, 0.0, # Look-at point
               0.0, 1.0, 0.0) # Up direction
     

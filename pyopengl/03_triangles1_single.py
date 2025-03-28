@@ -13,10 +13,10 @@ def draw_box(triangles, vertices):
     i = 0
     for triangle in triangles:
         c = colors[int(i/2)]
-        glColor3f(c[0], c[1], c[2])
-        for vertex in triangle:
-            glVertex3fv(vertices[vertex])
-        # i += 1
+        for vi in triangle: # vi: vertex index
+            glColor3f(c[0], c[1], c[2])
+            glVertex3fv(vertices[vi])
+        i += 1
     glEnd()
 
 
@@ -26,10 +26,10 @@ def mymain():
     window = glfw.create_window(display[0], display[1], prog_name, None, None)
     glfw.make_context_current(window)
     gluPerspective(30, (display[0]/display[1]), 0.1, 50.0)
-    gluLookAt(0, 0, 15, # Camera position
+    gluLookAt(15, 15, 15, # Camera position
               0.0, 0.0, 0.0, # Look-at point
               0.0, 1.0, 0.0) # Up direction
-    
+    glEnable(GL_DEPTH_TEST)
     vertices = [
     [-1, -1, -1],
     [ 1, -1, -1],
