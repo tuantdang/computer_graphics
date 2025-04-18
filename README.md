@@ -28,22 +28,17 @@
     - Packages
     - Vertex Shader
     - Fragment Shader
-- Representations of curves and surfaces [Colab](), [Github]()
-    - Polygon meshes
-    - Beizer curves and surfaces
-    - Hermite curves
-    - Spline curves and surfaces
-- Color [Colab](), [Github]()
+
+- Color [Presentation](https://docs.google.com/presentation/d/1FHPablbHqjgxAHElu0Qdc26aEVnKZXK2P_wxs0reYWY/edit?usp=sharing)
     - Color Spectrum
     - CIE Choromaticity
-    - Color space (RGB, HSV, YIQ, YCbCr,..)
+    - Color space (RGB, HSV,..)
     - Color convention
-- Illumination and Shading [Colab](), [Github]()
-    - Illumnination models
-    - Shading models for polygons
-    - Shadows
-    - Reflection
-    - Ray tracing
+
+- Representations of curves and surfaces [Presentation](https://docs.google.com/presentation/d/16PCGXMSTZYRbRHy1DjQa3qLRYwip3Crklj5XEUCdhCc/edit?usp=sharing))
+    - Polygon meshes
+    - Beizer curves and surfaces
+    - Hermite curves and surfaces
 
 ## Notes
 - Explanation and Code posted at Colab can help you quickly to understand concepts and try out them for deeper understanding.
