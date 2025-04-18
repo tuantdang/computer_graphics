@@ -35,7 +35,7 @@
     - Color space (RGB, HSV,..)
     - Color convention
 
-- Representations of curves and surfaces [Presentation](https://docs.google.com/presentation/d/16PCGXMSTZYRbRHy1DjQa3qLRYwip3Crklj5XEUCdhCc/edit?usp=sharing))
+- Representations of curves and surfaces [Presentation](https://docs.google.com/presentation/d/16PCGXMSTZYRbRHy1DjQa3qLRYwip3Crklj5XEUCdhCc/edit?usp=sharing)
     - Polygon meshes
     - Beizer curves and surfaces
     - Hermite curves and surfaces
